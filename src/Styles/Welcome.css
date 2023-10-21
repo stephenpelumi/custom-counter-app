@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+.WelcomeHead {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+  color: white;
+}
+.CountButton {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(101, 0, 101, 0.988);
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+.CountButton:hover {
+  background-color: rgba(78, 0, 78, 0.988);
+}
+.ErrorButton {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(101, 0, 101, 0.988);
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+.ErrorButton:hover {
+  background-color: rgba(78, 0, 78, 0.988);
+}
+.Buttons {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+}
+.background_Design_One {
+  width: 100px;
+}
+.header {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.Logo {
+  text-align: center;
+  padding-bottom: 80px;
+}
+.Logo_img {
+  width: 300px;
+}
+.FootOne,
+.FootTwo,
+.FootThree {
+  position: absolute;
+  bottom: 0px; 
+}
+.FootDesigns {
+  display: flex;
+  justify-content: flex-end;
+}
+.FootOne {
+  margin-left: auto;
+  margin-top: -30px;
+}
+.FootTwo {
+  margin-top: -10px;
+}
+.FootThree {
+  margin-top: -85px;
+}
+.welcome-background {
+  background-color: black;
+}
