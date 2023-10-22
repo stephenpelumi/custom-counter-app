@@ -78,3 +78,30 @@
 .welcome-background {
   background-color: black;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .background_Design_One{
+    display: none;
+  }
+  .Logo_img {
+    width: 200px;
+  }
+  .WelcomeHead {
+    font-size: 30px;
+  }
+  .FootOne {
+    width: 200px;
+  }
+  .FootTwo {
+    width: 150px;
+  }
+  .FootThree {
+    width: 100px;
+  }
+  .Buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+} 
+

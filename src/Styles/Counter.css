@@ -10,7 +10,6 @@
   color: white;
   font-family: "Roboto", sans-serif;
   margin-top: 135px;
-  /* color: white; */
 }
 .CountHead {
   text-align: center;
@@ -95,4 +94,44 @@
 }
 .BackHome:hover {
   text-decoration: underline;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .CounterNumber {
+    font-size: 5em;
+    margin-top: 90px;
+  }
+  .CounterImg {
+    position: absolute;
+    width: 280px;
+  }
+  .WholeButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: fit-content;
+    margin-top: -10px;
+  }
+  .Input {
+    margin-top: -2vh;
+    height: 5vh;
+    width: 200px !important;
+    font-size: 15px;
+  }
+  .CountHead {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+  }
+  .Increase,
+  .Decrease,
+  .Reset {
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  .SetValue {
+    font-size: 15px;
+  }
 }
